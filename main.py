@@ -1,13 +1,9 @@
 from secret import KEY
 from telegram import Update
-from telegram.ext import (
-    Updater,
-    CommandHandler,
-    MessageHandler,
-    Filters,
-    ConversationHandler,
-    CallbackContext,
-)
+from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,
+                          ConversationHandler,
+                          CallbackContext,
+                          )
 import my_game
 
 count = 0
